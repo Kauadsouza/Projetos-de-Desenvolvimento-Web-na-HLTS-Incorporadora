@@ -67,6 +67,22 @@ Este projeto foi **implementado em ambiente real** e usado em campanhas publicit
 
 ---
 
+O sistema foi utilizado em **diversos empreendimentos reais**, cada um com suas particularidades visuais, informativas e comerciais. Cada landing page foi customizada com base nas necessidades do cliente final, mantendo a mesma estrutura técnica e lógica de funcionamento.
+
+### 🏗️ Empreendimentos Atendidos
+
+- Residencial Theodoro – Tupã (SP)
+- Place + Arbi
+- Union Vista
+- Place + Oásis
+- Place + Bosque
+- Union Sabiá
+- Union Landscape
+
+Cada um desses empreendimentos foi desenvolvido como um projeto individual dentro do mesmo sistema, reforçando a escalabilidade, eficiência e versatilidade da solução criada.
+
+---
+
 ## 🧠 Aprendizados
 
 - Liderança técnica em um projeto real e útil;
