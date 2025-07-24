@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place + Arbi - Zona Sul Uberlândia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans antialiased text-gray-800">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <i class="fas fa-building text-[#B30033] text-2xl"></i>
+                <div>
+                    <span class="text-2xl font-bold">Place + Arbi</span>
+                    <p class="text-sm text-gray-600">Zona Sul de Uberlândia</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#diferenciais" class="text-gray-700 hover:text-[#B30033] font-medium">Diferenciais</a>
+                <a href="#plantas" class="text-gray-700 hover:text-[#B30033] font-medium">Plantas</a>
+                <a href="#localizacao" class="text-gray-700 hover:text-[#B30033] font-medium">Localização</a>
+                <a href="#contato" class="text-gray-700 hover:text-[#B30033] font-medium">Contato</a>
+            </nav>
+            <button class="btn-primary text-white px-6 py-2 rounded-md flex items-center">
+                <i class="fas fa-phone mr-2"></i>
+                Fale Conosco
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-[#FFE09C] to-[#D9B99B] py-16 md:py-24">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8 fade-in">
+                    <span class="badge-highlight px-4 py-1 rounded-full text-sm font-bold inline-block">
+                         🏙️ Lançamento Exclusivo
+                    </span>
+                    
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                        <span class="text-[#B30033]">Place + Arbi</span>
+                        <br>
+                        Seu novo padrão de morar
+                    </h1>
+                    
+                    <p class="text-xl text-gray-700 leading-relaxed">
+                        Apartamentos de 48m² e 50m² com 2 quartos na região mais valorizada da Zona Sul de Uberlândia.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-500"></i>
+                            <span>2 quartos</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-500"></i>
+                            <span>Opção com suíte</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-500"></i>
+                            <span>Portaria 24h</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-check-circle text-green-500"></i>
+                            <span>Área de lazer completa</span>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-primary text-white px-8 py-3 rounded-md text-lg font-bold">
+                        <i class="fas fa-calendar-alt mr-2"></i>
+                        Agende sua visita
+                    </button>
+                </div>
+                
+                <!-- Lead Form -->
+                <div class="bg-white shadow-xl rounded-xl p-8 fade-in">
+                    <div class="space-y-6">
+                        <div class="text-center space-y-2">
+                            <h3 class="text-2xl font-bold">
+                                Garanta condições exclusivas
+                            </h3>
+                            <p class="text-gray-600">
+                                Preencha e receba tabela de preços e plantas
+                            </p>
+                        </div>
+                        
+                        <form class="space-y-4">
+                            <input type="text" placeholder="Nome completo" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none">
+                            <input type="tel" placeholder="WhatsApp com DDD" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none">
+                            <input type="email" placeholder="Seu melhor e-mail" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none">
+                            
+                            <select class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none">
+                                <option>Modelo de interesse</option>
+                                <option>48m² - 2 quartos</option>
+                                <option>50m² - 2 quartos + suíte</option>
+                            </select>
+                            
+                            <button type="submit" class="btn-primary w-full px-4 py-3 text-white rounded-md text-lg font-bold">
+                                Quero informações exclusivas
+                            </button>
+                            
+                            <p class="text-xs text-gray-500 text-center">
+                                Seus dados estão seguros conosco. Não compartilhamos suas informações.
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section id="diferenciais" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    <span class="text-[#B30033]">Diferenciais</span> que fazem a diferença
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Tudo que você precisa para viver com conforto e praticidade
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="card-hover bg-white p-8 rounded-xl shadow-md border border-gray-100">
+                    <div class="w-16 h-16 bg-[#FFE09C] rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-[#B30033] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-2">Segurança 24h</h3>
+                    <p class="text-gray-600 text-center">
+                        Portaria controlada e monitoramento para sua tranquilidade.
+                    </p>
+                </div>
+                
+                <div class="card-hover bg-white p-8 rounded-xl shadow-md border border-gray-100">
+                    <div class="w-16 h-16 bg-[#FFE09C] rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-swimming-pool text-[#B30033] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-2">Área de Lazer</h3>
+                    <p class="text-gray-600 text-center">
+                        Piscina adulto e infantil, espaço gourmet e muito mais.
+                    </p>
+                </div>
+                
+                <div class="card-hover bg-white p-8 rounded-xl shadow-md border border-gray-100">
+                    <div class="w-16 h-16 bg-[#FFE09C] rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-map-marker-alt text-[#B30033] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-2">Localização Premium</h3>
+                    <p class="text-gray-600 text-center">
+                        Acesso rápido a mercados, farmácias e principais vias.
+                    </p>
+                </div>
+                
+                <div class="card-hover bg-white p-8 rounded-xl shadow-md border border-gray-100">
+                    <div class="w-16 h-16 bg-[#FFE09C] rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-parking text-[#B30033] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-2">Vagas Cobertas</h3>
+                    <p class="text-gray-600 text-center">
+                        Vagas protegidas para seu conforto e segurança.
+                    </p>
+                </div>
+                
+                <div class="card-hover bg-white p-8 rounded-xl shadow-md border border-gray-100">
+                    <div class="w-16 h-16 bg-[#FFE09C] rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-leaf text-[#B30033] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-2">Sustentabilidade</h3>
+                    <p class="text-gray-600 text-center">
+                        Projeto eco-friendly com economia de água e energia.
+                    </p>
+                </div>
+                
+                <div class="card-hover bg-white p-8 rounded-xl shadow-md border border-gray-100">
+                    <div class="w-16 h-16 bg-[#FFE09C] rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-home text-[#B30033] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-2">Acabamento Premium</h3>
+                    <p class="text-gray-600 text-center">
+                        Materiais de primeira linha em todos os ambientes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plantas -->
+    <section id="plantas" class="py-16 bg-accent">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    Plantas <span class="text-[#B30033]">Inteligentes</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Projetadas para otimizar cada metro quadrado
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="bg-[#D9B99B] p-4 rounded-lg mb-6">
+                        <img src="https://placehold.co/600x400/D9B99B/FFFFFF?text=Planta+48m²" alt="Planta 48m²" class="w-full h-auto rounded">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">48m² - 2 Quartos</h3>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>2 dormitórios (1 suíte opcional)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Sala ampla integrada à cozinha</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Área de serviço completa</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Varanda gourmet</span>
+                        </li>
+                    </ul>
+                    <button class="btn-primary w-full py-3 rounded-md font-bold">
+                        <i class="fas fa-download mr-2"></i>
+                        Baixar planta em PDF
+                    </button>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="bg-[#98A89A] p-4 rounded-lg mb-6">
+                        <img src="https://placehold.co/600x400/98A89A/FFFFFF?text=Planta+50m²" alt="Planta 50m²" class="w-full h-auto rounded">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">50m² - 2 Quartos + Suíte</h3>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>2 dormitórios (1 suíte master)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Sala de estar e jantar integradas</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Cozinha planejada</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Varanda ampla</span>
+                        </li>
+                    </ul>
+                    <button class="btn-primary w-full py-3 rounded-md font-bold">
+                        <i class="fas fa-download mr-2"></i>
+                        Baixar planta em PDF
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Localização -->
+    <section id="localizacao" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    <span class="text-[#B30033]">Localização</span> Privilegiada
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Av. Sul Americana, nº 140 - Tudo pertinho de você
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-white p-6 rounded-lg shadow-md border border-gray-100">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 bg-[#FFE09C] rounded-full flex items-center justify-center">
+                                    <i class="fas fa-store text-[#B30033]"></i>
+                                </div>
+                                <h3 class="font-bold">1 minuto</h3>
+                            </div>
+                            <p class="text-gray-600 mt-2">Super Maxi</p>
+                        </div>
+                        
+                        <div class="bg-white p-6 rounded-lg shadow-md border border-gray-100">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 bg-[#FFE09C] rounded-full flex items-center justify-center">
+                                    <i class="fas fa-pills text-[#B30033]"></i>
+                                </div>
+                                <h3 class="font-bold">2 minutos</h3>
+                            </div>
+                            <p class="text-gray-600 mt-2">Farmácias</p>
+                        </div>
+                        
+                        <div class="bg-white p-6 rounded-lg shadow-md border border-gray-100">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 bg-[#FFE09C] rounded-full flex items-center justify-center">
+                                    <i class="fas fa-school text-[#B30033]"></i>
+                                </div>
+                                <h3 class="font-bold">5 minutos</h3>
+                            </div>
+                            <p class="text-gray-600 mt-2">Escolas</p>
+                        </div>
+                        
+                        <div class="bg-white p-6 rounded-lg shadow-md border border-gray-100">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 bg-[#FFE09C] rounded-full flex items-center justify-center">
+                                    <i class="fas fa-hospital text-[#B30033]"></i>
+                                </div>
+                                <h3 class="font-bold">8 minutos</h3>
+                            </div>
+                            <p class="text-gray-600 mt-2">Hospitais</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md border border-gray-100">
+                        <h3 class="font-bold text-lg mb-3">Principais vias de acesso:</h3>
+                        <ul class="space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-road text-[#B30033] mt-1 mr-2"></i>
+                                <span>Av. João Naves de Ávila</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-road text-[#B30033] mt-1 mr-2"></i>
+                                <span>Av. Anselmo Alves dos Santos</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-road text-[#B30033] mt-1 mr-2"></i>
+                                <span>Av. José Andraus Gassani</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-1 rounded-xl shadow-xl overflow-hidden">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12039.769419093271!2d-48.277369!3d-18.918611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDU1JzA3LjAiUyA0OMKwMTYnMzguNSJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-lg"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 bg-[#B30033] text-white">
+        <div class="container mx-auto px-4 text-center">
+            <div class="max-w-4xl mx-auto space-y-8">
+                <h2 class="text-3xl md:text-4xl font-bold">
+                    Condições especiais de lançamento
+                </h2>
+                <p class="text-xl opacity-90">
+                    Vagas limitadas! Garanta já o seu apartamento com as melhores condições.
+                </p>
+                
+                <div class="bg-white rounded-xl p-8 max-w-2xl mx-auto shadow-2xl">
+                    <form class="space-y-4">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <input type="text" placeholder="Nome completo" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none">
+                            <input type="tel" placeholder="WhatsApp" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none">
+                        </div>
+                        
+                        <select class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none">
+                            <option>Modelo de interesse</option>
+                            <option>48m² - 2 quartos</option>
+                            <option>50m² - 2 quartos + suíte</option>
+                        </select>
+                        
+                        <button class="btn-primary w-full px-4 py-3 text-white rounded-md font-bold">
+                            Quero condições especiais
+                        </button>
+                        
+                        <p class="text-xs text-gray-500">
+                            Promoção válida apenas para os primeiros 20 contratos.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
