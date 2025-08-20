@@ -1,76 +1,68 @@
+// Simple animation on scroll
 document.addEventListener('DOMContentLoaded', function() {
-    // Form submission handler
-    const forms = document.querySelectorAll('form');
+    const fadeElements = document.querySelectorAll('.fade-in');
     
-    forms.forEach(form => {
-        form.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Simulate form submission
-            console.log('Form submitted');
-            alert('Obrigado pelo seu interesse! Nossa equipe entrará em contato em breve.');
-            
-            // Reset form
-            this.reset();
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = 1;
+                entry.target.style.transform = 'translateY(0)';
+            }
         });
-    });
-
-    // Phone mask
-    const phoneInputs = document.querySelectorAll('input[type="tel"]');
+    }, { threshold: 0.1 });
     
-    phoneInputs.forEach(input => {
-        input.addEventListener('input', function(e) {
-            let value = e.target.value.replace(/\D/g, '');
-            
-            if (value.length > 11) {
-                value = value.substring(0, 11);
-            }
-            
-            // Apply phone mask (XX) XXXXX-XXXX
-            if (value.length > 0) {
-                value = value.replace(/^(\d{2})(\d)/g, '($1) $2');
-            }
-            if (value.length > 10) {
-                value = value.replace(/(\d{5})(\d)/, '$1-$2');
-            }
-            
-            e.target.value = value;
-        });
+    fadeElements.forEach(el => {
+        el.style.opacity = 0;
+        el.style.transform = 'translateY(20px)';
+        el.style.transition = 'all 0.6s ease-out';
+        observer.observe(el);
     });
-
+    
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
-            if (this.getAttribute('href') === '#') return;
-            
             e.preventDefault();
-            
-            const targetId = this.getAttribute('href');
-            const targetElement = document.querySelector(targetId);
-            
-            if (targetElement) {
-                targetElement.scrollIntoView({
-                    behavior: 'smooth'
-                });
-            }
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
         });
     });
 
-    // Add animation classes on scroll
-    const animateOnScroll = () => {
-        const elements = document.querySelectorAll('.card-hover, .fade-in');
+    // Show more gallery items
+    const showMoreBtn = document.getElementById('showMoreGallery');
+    const moreGallery = document.getElementById('moreGallery');
+    
+    if (showMoreBtn && moreGallery) {
+        showMoreBtn.addEventListener('click', function() {
+            moreGallery.classList.toggle('hidden');
+            this.textContent = moreGallery.classList.contains('hidden') ? 
+                'Ver mais plantas' : 'Ver menos plantas';
+        });
+    }
+
+    // Lightbox functionality
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const closeBtn = document.querySelector('.lightbox-close');
+    const galleryItems = document.querySelectorAll('.gallery-item img');
+    
+    if (lightbox && lightboxImg && closeBtn && galleryItems) {
+        galleryItems.forEach(item => {
+            item.addEventListener('click', function() {
+                lightbox.style.display = 'flex';
+                lightboxImg.src = this.src;
+                lightboxImg.alt = this.alt;
+            });
+        });
         
-        elements.forEach(element => {
-            const elementPosition = element.getBoundingClientRect().top;
-            const screenPosition = window.innerHeight / 1.3;
-            
-            if (elementPosition < screenPosition) {
-                element.classList.add('fade-in');
+        closeBtn.addEventListener('click', function() {
+            lightbox.style.display = 'none';
+        });
+        
+        lightbox.addEventListener('click', function(e) {
+            if (e.target === lightbox) {
+                lightbox.style.display = 'none';
             }
         });
-    };
-
-    // Run on load and scroll
-    window.addEventListener('scroll', animateOnScroll);
-    animateOnScroll();
+    }
 });
