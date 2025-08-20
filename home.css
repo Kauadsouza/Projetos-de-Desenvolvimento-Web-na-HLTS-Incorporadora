@@ -1,54 +1,47 @@
+.btn-primary {
+    background-color: #f8d67d;
+    transition: all 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #e6c56d;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card-hover {
+    transition: all 0.3s ease;
+}
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
 }
-
-.fade-in {
-    animation: fadeIn 0.8s ease-out forwards;
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
 }
-
-input, select, textarea {
-    transition: all 0.3s ease;
+.lightbox-content {
+    max-width: 90%;
+    max-height: 90%;
 }
-
-input:focus, select:focus, textarea:focus {
-    border-color: #B30033 !important;
-    box-shadow: 0 0 0 3px rgba(179, 0, 51, 0.2) !important;
-}
-
-.btn-primary {
-    background-color: #B30033;
-    transition: all 0.3s ease;
-}
-
-.btn-primary:hover {
-    background-color: #8C0029;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(179, 0, 51, 0.25);
-}
-
-.badge-highlight {
-    background-color: #FFE09C;
-    color: #B30033;
-}
-
-.card-hover {
-    transition: all 0.3s ease;
-}
-
-.card-hover:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-}
-
-.bg-accent {
-    background-color: #DCD6D2;
-}
-
-.bg-wood {
-    background-color: #D9B99B;
-}
-
-.bg-greenish {
-    background-color: #98A89A;
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
 }
