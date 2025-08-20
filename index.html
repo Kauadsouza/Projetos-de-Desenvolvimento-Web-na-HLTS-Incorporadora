@@ -3,110 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Place + Arbi - Zona Sul Uberlândia</title>
+    <title>ARBI - Empreendimentos Imobiliários</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
 </head>
-<body class="font-sans antialiased text-gray-800">
-    <!-- Header -->
-    <header class="bg-white shadow-sm sticky top-0 z-50">
-        <div class="container mx-auto px-4 py-3 flex items-center justify-between">
-            <div class="flex items-center space-x-3">
-                <i class="fas fa-building text-[#B30033] text-2xl"></i>
-                <div>
-                    <span class="text-2xl font-bold">Place + Arbi</span>
-                    <p class="text-sm text-gray-600">Zona Sul de Uberlândia</p>
-                </div>
+<body class="font-sans antialiased" style="background-color: #fafafa; color: #908685;">
+    <!-- Header with Company Logo -->
+    <header class="sticky top-0 z-50" style="background-color: #faf9fe; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="rounded-lg h-16 flex items-center">
+                <img src="img/MARCA PLACE + ARBI transparente.png" alt="Marca PLACE + ARBI" class="h-full">
             </div>
+            
             <nav class="hidden md:flex space-x-8">
-                <a href="#diferenciais" class="text-gray-700 hover:text-[#B30033] font-medium">Diferenciais</a>
-                <a href="#plantas" class="text-gray-700 hover:text-[#B30033] font-medium">Plantas</a>
-                <a href="#localizacao" class="text-gray-700 hover:text-[#B30033] font-medium">Localização</a>
-                <a href="#contato" class="text-gray-700 hover:text-[#B30033] font-medium">Contato</a>
+                <a href="#sobre" class="font-medium hover:text-[#f8d67d]" style="color: #918786;">Sobre Nós</a>
+                <a href="#diferenciais" class="font-medium hover:text-[#f8d67d]" style="color: #918786;">Diferenciais</a>
+                <a href="#contato" class="font-medium hover:text-[#f8d67d]" style="color: #918786;">Contato</a>
             </nav>
-            <button class="btn-primary text-white px-6 py-2 rounded-md flex items-center">
+            
+            <button class="btn-primary px-6 py-2 rounded-md font-bold flex items-center">
                 <i class="fas fa-phone mr-2"></i>
                 Fale Conosco
             </button>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="bg-gradient-to-br from-[#FFE09C] to-[#D9B99B] py-16 md:py-24">
+    <!-- Hero Section with Company Image -->
+    <section class="py-16 md:py-24" style="background-color: #f8f7fc;">
         <div class="container mx-auto px-4">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
                 <div class="space-y-8 fade-in">
-                    <span class="badge-highlight px-4 py-1 rounded-full text-sm font-bold inline-block">
-                         🏙️ Lançamento Exclusivo
+                    <span class="px-4 py-1 rounded-full text-sm font-bold inline-block" style="background-color: #f8d67d; color: #333;">
+                         Lançamento Exclusivo
                     </span>
                     
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                        <span class="text-[#B30033]">Place + Arbi</span>
-                        <br>
-                        Seu novo padrão de morar
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight" style="color: #333;">
+                        ARBI - Excelência em<br>
+                        <span style="color: #f8d67d;">Empreendimentos Imobiliários</span>
                     </h1>
                     
-                    <p class="text-xl text-gray-700 leading-relaxed">
-                        Apartamentos de 48m² e 50m² com 2 quartos na região mais valorizada da Zona Sul de Uberlândia.
+                    <p class="text-xl leading-relaxed">
+                        Mais de 15 anos construindo sonhos e transformando cidades com projetos inovadores e qualidade incomparável.
                     </p>
                     
                     <div class="grid grid-cols-2 gap-4">
                         <div class="flex items-center space-x-2">
-                            <i class="fas fa-check-circle text-green-500"></i>
-                            <span>2 quartos</span>
+                            <i class="fas fa-check-circle" style="color: #f8d67d;"></i>
+                            <span>Qualidade comprovada</span>
                         </div>
                         <div class="flex items-center space-x-2">
-                            <i class="fas fa-check-circle text-green-500"></i>
-                            <span>Opção com suíte</span>
+                            <i class="fas fa-check-circle" style="color: #f8d67d;"></i>
+                            <span>Localizações privilegiadas</span>
                         </div>
                         <div class="flex items-center space-x-2">
-                            <i class="fas fa-check-circle text-green-500"></i>
-                            <span>Portaria 24h</span>
+                            <i class="fas fa-check-circle" style="color: #f8d67d;"></i>
+                            <span>Acabamentos premium</span>
                         </div>
                         <div class="flex items-center space-x-2">
-                            <i class="fas fa-check-circle text-green-500"></i>
-                            <span>Área de lazer completa</span>
+                            <i class="fas fa-check-circle" style="color: #f8d67d;"></i>
+                            <span>Atendimento personalizado</span>
                         </div>
                     </div>
                     
-                    <button class="btn-primary text-white px-8 py-3 rounded-md text-lg font-bold">
-                        <i class="fas fa-calendar-alt mr-2"></i>
-                        Agende sua visita
+                   <a href="https://wa.me/5534932358800?text=Vim%20pelo%20site%20do%20Google%2C%20E%20gostaria%20de%20saber%20mais%20sobre%20o%20ARBI" >
+                     <button class="btn-primary text-black px-8 py-3 rounded-md text-lg font-bold">
+                                        Agende sua visita
                     </button>
+                      </a>
                 </div>
                 
-                <!-- Lead Form -->
-                <div class="bg-white shadow-xl rounded-xl p-8 fade-in">
-                    <div class="space-y-6">
-                        <div class="text-center space-y-2">
-                            <h3 class="text-2xl font-bold">
-                                Garanta condições exclusivas
-                            </h3>
-                            <p class="text-gray-600">
-                                Preencha e receba tabela de preços e plantas
-                            </p>
+                <!-- Company Main Image -->
+                <div class="rounded-xl overflow-hidden h-96 w-full">
+                    <picture>
+                        <source srcset="ft principal arbi.webp" type="image/webp">
+                        <source srcset="ft principal arbi.png" type="image/png">
+                        <img src="img/img planta transparente.png" alt="Foto principal do ARBI" class="w-full h-full object-cover" loading="eager">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Company Section -->
+    <section id="sobre" class="py-16" style="background-color: #fafafa;">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4" style="color: #333;">
+                    <span style="color: #f8d67d;">Sobre</span> a ARBI
+                </h2>
+                <p class="text-xl max-w-3xl mx-auto">
+                    Conheça nossa história e os valores que nos guiam
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Company History Image -->
+                <div class="rounded-xl overflow-hidden h-96 w-full">
+                    <picture>
+                        <source srcset="planta 1.webp" type="image/webp">
+                        <source srcset="planta 1.png" type="image/png">
+                        <img src="img/img arbi post test2.jpg" alt="Planta 1 do empreendimento ARBI" class="w-full h-full object-cover" loading="lazy">
+                    </picture>
+                </div>
+                
+                <div class="space-y-6">
+                    <h3 class="text-2xl font-bold" style="color: #333;">Nossa História</h3>
+                    <p>
+                        Fundada em 2008, a ARBI surgiu com o propósito de revolucionar o mercado imobiliário, oferecendo projetos que unem inovação, qualidade e sofisticação.
+                    </p>
+                    <p>
+                        Ao longo dos anos, consolidamos nossa marca como sinônimo de excelência, com mais de 50 empreendimentos entregues e milhares de clientes satisfeitos.
+                    </p>
+                    
+                    <h3 class="text-2xl font-bold mt-8" style="color: #333;">Nossos Valores</h3>
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div class="flex items-start space-x-3">
+                            <i class="fas fa-medal mt-1" style="color: #f8d67d;"></i>
+                            <div>
+                                <h4 class="font-bold">Qualidade</h4>
+                                <p class="text-sm">Materiais premium e acabamentos impecáveis</p>
+                            </div>
                         </div>
-                        
-                        <form class="space-y-4">
-                            <input type="text" placeholder="Nome completo" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none">
-                            <input type="tel" placeholder="WhatsApp com DDD" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none">
-                            <input type="email" placeholder="Seu melhor e-mail" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none">
-                            
-                            <select class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none">
-                                <option>Modelo de interesse</option>
-                                <option>48m² - 2 quartos</option>
-                                <option>50m² - 2 quartos + suíte</option>
-                            </select>
-                            
-                            <button type="submit" class="btn-primary w-full px-4 py-3 text-white rounded-md text-lg font-bold">
-                                Quero informações exclusivas
-                            </button>
-                            
-                            <p class="text-xs text-gray-500 text-center">
-                                Seus dados estão seguros conosco. Não compartilhamos suas informações.
-                            </p>
-                        </form>
+                        <div class="flex items-start space-x-3">
+                            <i class="fas fa-lightbulb mt-1" style="color: #f8d67d;"></i>
+                            <div>
+                                <h4 class="font-bold">Inovação</h4>
+                                <p class="text-sm">Projetos arquitetônicos modernos e funcionais</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <i class="fas fa-handshake mt-1" style="color: #f8d67d;"></i>
+                            <div>
+                                <h4 class="font-bold">Transparência</h4>
+                                <p class="text-sm">Relação clara e honesta com nossos clientes</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <i class="fas fa-heart mt-1" style="color: #f8d67d;"></i>
+                            <div>
+                                <h4 class="font-bold">Satisfação</h4>
+                                <p class="text-sm">Compromisso total com a experiência do cliente</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -114,246 +154,216 @@
     </section>
 
     <!-- Diferenciais -->
-    <section id="diferenciais" class="py-16 bg-white">
+    <section id="diferenciais" class="py-16" style="background-color: #fafafa;">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">
-                    <span class="text-[#B30033]">Diferenciais</span> que fazem a diferença
+                <h2 class="text-3xl md:text-4xl font-bold mb-4" style="color: #333;">
+                    <span style="color: #f8d67d;">Diferenciais</span> ARBI
                 </h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Tudo que você precisa para viver com conforto e praticidade
+                <p class="text-xl max-w-3xl mx-auto">
+                    O que nos torna referência no mercado imobiliário
                 </p>
             </div>
             
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="card-hover bg-white p-8 rounded-xl shadow-md border border-gray-100">
-                    <div class="w-16 h-16 bg-[#FFE09C] rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-shield-alt text-[#B30033] text-2xl"></i>
+                <div class="card-hover bg-white p-8 rounded-xl shadow-md">
+                    <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style="background-color: #f8f7fc;">
+                        <i class="fas fa-award text-2xl" style="color: #f8d67d;"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-center mb-2">Segurança 24h</h3>
-                    <p class="text-gray-600 text-center">
-                        Portaria controlada e monitoramento para sua tranquilidade.
+                    <h3 class="text-xl font-bold text-center mb-2" style="color: #333;">Qualidade Garantida</h3>
+                    <p class="text-center">
+                        Utilizamos apenas materiais de primeira linha, com garantia estendida em todos os nossos empreendimentos.
                     </p>
                 </div>
                 
-                <div class="card-hover bg-white p-8 rounded-xl shadow-md border border-gray-100">
-                    <div class="w-16 h-16 bg-[#FFE09C] rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-swimming-pool text-[#B30033] text-2xl"></i>
+                <div class="card-hover bg-white p-8 rounded-xl shadow-md">
+                    <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style="background-color: #f8f7fc;">
+                        <i class="fas fa-leaf text-2xl" style="color: #f8d67d;"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-center mb-2">Área de Lazer</h3>
-                    <p class="text-gray-600 text-center">
-                        Piscina adulto e infantil, espaço gourmet e muito mais.
+                    <h3 class="text-xl font-bold text-center mb-2" style="color: #333;">Sustentabilidade</h3>
+                    <p class="text-center">
+                        Projetos eco-friendly com sistemas de reaproveitamento de água e energia solar.
                     </p>
                 </div>
                 
-                <div class="card-hover bg-white p-8 rounded-xl shadow-md border border-gray-100">
-                    <div class="w-16 h-16 bg-[#FFE09C] rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-map-marker-alt text-[#B30033] text-2xl"></i>
+                <div class="card-hover bg-white p-8 rounded-xl shadow-md">
+                    <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style="background-color: #f8f7fc;">
+                        <i class="fas fa-lock text-2xl" style="color: #f8d67d;"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-center mb-2">Localização Premium</h3>
-                    <p class="text-gray-600 text-center">
-                        Acesso rápido a mercados, farmácias e principais vias.
+                    <h3 class="text-xl font-bold text-center mb-2" style="color: #333;">Segurança</h3>
+                    <p class="text-center">
+                        Portaria 24h, monitoramento por câmeras and sistemas de acesso controlado.
                     </p>
                 </div>
                 
-                <div class="card-hover bg-white p-8 rounded-xl shadow-md border border-gray-100">
-                    <div class="w-16 h-16 bg-[#FFE09C] rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-parking text-[#B30033] text-2xl"></i>
+                <div class="card-hover bg-white p-8 rounded-xl shadow-md">
+                    <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style="background-color: #f8f7fc;">
+                        <i class="fas fa-map-marked-alt text-2xl" style="color: #f8d67d;"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-center mb-2">Vagas Cobertas</h3>
-                    <p class="text-gray-600 text-center">
-                        Vagas protegidas para seu conforto e segurança.
+                    <h3 class="text-xl font-bold text-center mb-2" style="color: #333;">Localização</h3>
+                    <p class="text-center">
+                        Escolhemos cuidadosamente os melhores bairros, próximos a comércio, escolas e vias de acesso.
                     </p>
                 </div>
                 
-                <div class="card-hover bg-white p-8 rounded-xl shadow-md border border-gray-100">
-                    <div class="w-16 h-16 bg-[#FFE09C] rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-leaf text-[#B30033] text-2xl"></i>
+                <div class="card-hover bg-white p-8 rounded-xl shadow-md">
+                    <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style="background-color: #f8f7fc;">
+                        <i class="fas fa-hand-holding-usd text-2xl" style="color: #f8d67d;"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-center mb-2">Sustentabilidade</h3>
-                    <p class="text-gray-600 text-center">
-                        Projeto eco-friendly com economia de água e energia.
+                    <h3 class="text-xl font-bold text-center mb-2" style="color: #333;">Condições Especiais</h3>
+                    <p class="text-center">
+                        Parcelamento facilitado e financiamento com as melhores taxas do mercado.
                     </p>
                 </div>
                 
-                <div class="card-hover bg-white p-8 rounded-xl shadow-md border border-gray-100">
-                    <div class="w-16 h-16 bg-[#FFE09C] rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-home text-[#B30033] text-2xl"></i>
+                <div class="card-hover bg-white p-8 rounded-xl shadow-md">
+                    <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style="background-color: #f8f7fc;">
+                        <i class="fas fa-users text-2xl" style="color: #f8d67d;"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-center mb-2">Acabamento Premium</h3>
-                    <p class="text-gray-600 text-center">
-                        Materiais de primeira linha em todos os ambientes.
+                    <h3 class="text-xl font-bold text-center mb-2" style="color: #333;">Atendimento</h3>
+                    <p class="text-center">
+                        Equipe especializada para te acompanhar em todas as etapas, da escolha à entrega das chaves.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Plantas -->
-    <section id="plantas" class="py-16 bg-accent">
+    <!-- Gallery Section -->
+    <section class="py-16" style="background-color: #f9f8fd;">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">
-                    Plantas <span class="text-[#B30033]">Inteligentes</span>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4" style="color: #333;">
+                    <span style="color: #f8d67d;">Galeria</span> de Imagens
                 </h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Projetadas para otimizar cada metro quadrado
+                <p class="text-xl max-w-3xl mx-auto">
+                    Conheça nossos empreendimentos através das lentes
                 </p>
             </div>
             
-            <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-white p-8 rounded-xl shadow-lg">
-                    <div class="bg-[#D9B99B] p-4 rounded-lg mb-6">
-                        <img src="https://placehold.co/600x400/D9B99B/FFFFFF?text=Planta+48m²" alt="Planta 48m²" class="w-full h-auto rounded">
-                    </div>
-                    <h3 class="text-2xl font-bold mb-2">48m² - 2 Quartos</h3>
-                    <ul class="space-y-2 mb-6">
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                            <span>2 dormitórios (1 suíte opcional)</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                            <span>Sala ampla integrada à cozinha</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                            <span>Área de serviço completa</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                            <span>Varanda gourmet</span>
-                        </li>
-                    </ul>
-                    <button class="btn-primary w-full py-3 rounded-md font-bold">
-                        <i class="fas fa-download mr-2"></i>
-                        Baixar planta em PDF
-                    </button>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <!-- Plantas 1-8 -->
+                <div class="rounded-lg overflow-hidden h-48 cursor-pointer gallery-item">
+                    <picture>
+                        <source srcset="planta 1.webp" type="image/webp">
+                        <source srcset="planta 1.png" type="image/png">
+                        <img src="img/planta 1.png" alt="Planta 1 do empreendimento ARBI" class="w-full h-full object-cover" loading="lazy">
+                    </picture>
                 </div>
-                
-                <div class="bg-white p-8 rounded-xl shadow-lg">
-                    <div class="bg-[#98A89A] p-4 rounded-lg mb-6">
-                        <img src="https://placehold.co/600x400/98A89A/FFFFFF?text=Planta+50m²" alt="Planta 50m²" class="w-full h-auto rounded">
-                    </div>
-                    <h3 class="text-2xl font-bold mb-2">50m² - 2 Quartos + Suíte</h3>
-                    <ul class="space-y-2 mb-6">
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                            <span>2 dormitórios (1 suíte master)</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                            <span>Sala de estar e jantar integradas</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                            <span>Cozinha planejada</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-                            <span>Varanda ampla</span>
-                        </li>
-                    </ul>
-                    <button class="btn-primary w-full py-3 rounded-md font-bold">
-                        <i class="fas fa-download mr-2"></i>
-                        Baixar planta em PDF
-                    </button>
+                <div class="rounded-lg overflow-hidden h-48 cursor-pointer gallery-item">
+                    <picture>
+                        <source srcset="planta 2.webp" type="image/webp">
+                        <source srcset="planta 2.png" type="image/png">
+                        <img src="img/planta 2.png" alt="Planta 2 do empreendimento ARBI" class="w-full h-full object-cover" loading="lazy">
+                    </picture>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Localização -->
-    <section id="localizacao" class="py-16 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">
-                    <span class="text-[#B30033]">Localização</span> Privilegiada
-                </h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Av. Sul Americana, nº 140 - Tudo pertinho de você
-                </p>
+                <div class="rounded-lg overflow-hidden h-48 cursor-pointer gallery-item">
+                    <picture>
+                        <source srcset="planta 3.webp" type="image/webp">
+                        <source srcset="planta 3.png" type="image/png">
+                        <img src="img/planta 3.png" alt="Planta 3 do empreendimento ARBI" class="w-full h-full object-cover" loading="lazy">
+                    </picture>
+                </div>
+                <div class="rounded-lg overflow-hidden h-48 cursor-pointer gallery-item">
+                    <picture>
+                        <source srcset="planta 4.webp" type="image/webp">
+                        <source srcset="planta 4.png" type="image/png">
+                        <img src="img/planta 4.png" alt="Planta 4 do empreendimento ARBI" class="w-full h-full object-cover" loading="lazy">
+                    </picture>
+                </div>
+                <div class="rounded-lg overflow-hidden h-48 cursor-pointer gallery-item">
+                    <picture>
+                        <source srcset="planta 5.webp" type="image/webp">
+                        <source srcset="planta 5.jpg" type="image/jpeg">
+                        <img src="img/planta 5.jpg" alt="Planta 5 do empreendimento ARBI" class="w-full h-full object-cover" loading="lazy">
+                    </picture>
+                </div>
+                <div class="rounded-lg overflow-hidden h-48 cursor-pointer gallery-item">
+                    <picture>
+                        <source srcset="planta 6.webp" type="image/webp">
+                        <source srcset="planta 6.png" type="image/png">
+                        <img src="img/planta 6.png" alt="Planta 6 do empreendimento ARBI" class="w-full h-full object-cover" loading="lazy">
+                    </picture>
+                </div>
+                <div class="rounded-lg overflow-hidden h-48 cursor-pointer gallery-item">
+                    <picture>
+                        <source srcset="planta 7.webp" type="image/webp">
+                        <source srcset="planta 7.png" type="image/png">
+                        <img src="img/planta 7.png" alt="Planta 7 do empreendimento ARBI" class="w-full h-full object-cover" loading="lazy">
+                    </picture>
+                </div>
+                <div class="rounded-lg overflow-hidden h-48 cursor-pointer gallery-item">
+                    <picture>
+                        <source srcset="planta 8.webp" type="image/webp">
+                        <source srcset="planta 8.png" type="image/png">
+                        <img src="img/planta 8.png" alt="Planta 8 do empreendimento ARBI" class="w-full h-full object-cover" loading="lazy">
+                    </picture>
+                </div>
             </div>
             
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
-                <div class="space-y-6">
-                    <div class="grid grid-cols-2 gap-4">
-                        <div class="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-                            <div class="flex items-center space-x-3">
-                                <div class="w-10 h-10 bg-[#FFE09C] rounded-full flex items-center justify-center">
-                                    <i class="fas fa-store text-[#B30033]"></i>
-                                </div>
-                                <h3 class="font-bold">1 minuto</h3>
-                            </div>
-                            <p class="text-gray-600 mt-2">Super Maxi</p>
-                        </div>
-                        
-                        <div class="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-                            <div class="flex items-center space-x-3">
-                                <div class="w-10 h-10 bg-[#FFE09C] rounded-full flex items-center justify-center">
-                                    <i class="fas fa-pills text-[#B30033]"></i>
-                                </div>
-                                <h3 class="font-bold">2 minutos</h3>
-                            </div>
-                            <p class="text-gray-600 mt-2">Farmácias</p>
-                        </div>
-                        
-                        <div class="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-                            <div class="flex items-center space-x-3">
-                                <div class="w-10 h-10 bg-[#FFE09C] rounded-full flex items-center justify-center">
-                                    <i class="fas fa-school text-[#B30033]"></i>
-                                </div>
-                                <h3 class="font-bold">5 minutos</h3>
-                            </div>
-                            <p class="text-gray-600 mt-2">Escolas</p>
-                        </div>
-                        
-                        <div class="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-                            <div class="flex items-center space-x-3">
-                                <div class="w-10 h-10 bg-[#FFE09C] rounded-full flex items-center justify-center">
-                                    <i class="fas fa-hospital text-[#B30033]"></i>
-                                </div>
-                                <h3 class="font-bold">8 minutos</h3>
-                            </div>
-                            <p class="text-gray-600 mt-2">Hospitais</p>
-                        </div>
-                    </div>
-                    
-                    <div class="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-                        <h3 class="font-bold text-lg mb-3">Principais vias de acesso:</h3>
-                        <ul class="space-y-2">
-                            <li class="flex items-start">
-                                <i class="fas fa-road text-[#B30033] mt-1 mr-2"></i>
-                                <span>Av. João Naves de Ávila</span>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fas fa-road text-[#B30033] mt-1 mr-2"></i>
-                                <span>Av. Anselmo Alves dos Santos</span>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fas fa-road text-[#B30033] mt-1 mr-2"></i>
-                                <span>Av. José Andraus Gassani</span>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="text-center mt-12">
+                <button id="showMoreGallery" class="px-6 py-3 rounded-md font-bold border-2" style="border-color: #f8d67d; color: #333;">
+                    Ver mais plantas
+                </button>
+            </div>
+
+            <!-- Hidden gallery items -->
+            <div id="moreGallery" class="hidden grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
+                <!-- Plantas 9-13 -->
+                <div class="rounded-lg overflow-hidden h-48 cursor-pointer gallery-item">
+                    <picture>
+                        <source srcset="planta 9.webp" type="image/webp">
+                        <source srcset="planta 9.png" type="image/png">
+                        <img src="planta 9.png" alt="Planta 9 do empreendimento ARBI" class="w-full h-full object-cover" loading="lazy">
+                    </picture>
                 </div>
-                
-                <div class="bg-white p-1 rounded-xl shadow-xl overflow-hidden">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12039.769419093271!2d-48.277369!3d-18.918611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDU1JzA3LjAiUyA0OMKwMTYnMzguNSJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-lg"></iframe>
+                <div class="rounded-lg overflow-hidden h-48 cursor-pointer gallery-item">
+                    <picture>
+                        <source srcset="planta 10.webp" type="image/webp">
+                        <source srcset="planta 10.png" type="image/png">
+                        <img src="planta 10.png" alt="Planta 10 do empreendimento ARBI" class="w-full h-full object-cover" loading="lazy">
+                    </picture>
+                </div>
+                <div class="rounded-lg overflow-hidden h-48 cursor-pointer gallery-item">
+                    <picture>
+                        <source srcset="planta 11.webp" type="image/webp">
+                        <source srcset="planta 11.png" type="image/png">
+                        <img src="planta 11.png" alt="Planta 11 do empreendimento ARBI" class="w-full h-full object-cover" loading="lazy">
+                    </picture>
+                </div>
+                <div class="rounded-lg overflow-hidden h-48 cursor-pointer gallery-item">
+                    <picture>
+                        <source srcset="planta 12.webp" type="image/webp">
+                        <source srcset="planta 12.png" type="image/png">
+                        <img src="planta 12.png" alt="Planta 12 do empreendimento ARBI" class="w-full h-full object-cover" loading="lazy">
+                    </picture>
+                </div>
+                <div class="rounded-lg overflow-hidden h-48 cursor-pointer gallery-item">
+                    <picture>
+                        <source srcset="planta 13.webp" type="image/webp">
+                        <source srcset="planta 13.png" type="image/png">
+                        <img src="planta 13.png" alt="Planta 13 do empreendimento ARBI" class="w-full h-full object-cover" loading="lazy">
+                    </picture>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CTA -->
-    <section class="py-16 bg-[#B30033] text-white">
+    <!-- Lightbox for gallery -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" class="lightbox-content" src="" alt="">
+    </div>
+
+    <!-- CTA Section -->
+    <section class="py-16" style="background-color: #f8d67d;">
         <div class="container mx-auto px-4 text-center">
             <div class="max-w-4xl mx-auto space-y-8">
-                <h2 class="text-3xl md:text-4xl font-bold">
-                    Condições especiais de lançamento
+                <h2 class="text-3xl md:text-4xl font-bold" style="color: #333;">
+                    Pronto para realizar seu sonho?
                 </h2>
-                <p class="text-xl opacity-90">
-                    Vagas limitadas! Garanta já o seu apartamento com as melhores condições.
+                <p class="text-xl" style="color: #333;">
+                    Entre em contato agora mesmo e agende uma visita
                 </p>
                 
                 <div class="bg-white rounded-xl p-8 max-w-2xl mx-auto shadow-2xl">
@@ -362,19 +372,18 @@
                             <input type="text" placeholder="Nome completo" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none">
                             <input type="tel" placeholder="WhatsApp" class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none">
                         </div>
-                        
+                                                
                         <select class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none">
-                            <option>Modelo de interesse</option>
-                            <option>48m² - 2 quartos</option>
-                            <option>50m² - 2 quartos + suíte</option>
+                            <option>Gmail</option>
+                          
                         </select>
-                        
-                        <button class="btn-primary w-full px-4 py-3 text-white rounded-md font-bold">
-                            Quero condições especiais
+                                                
+                        <button class="w-full px-4 py-3 rounded-md font-bold" style="background-color: #333; color: white;">
+                            Quero mais informações
                         </button>
-                        
+                                                
                         <p class="text-xs text-gray-500">
-                            Promoção válida apenas para os primeiros 20 contratos.
+                            Seus dados estão seguros conosco. Não compartilhamos suas informações.
                         </p>
                     </form>
                 </div>
@@ -382,6 +391,139 @@
         </div>
     </section>
 
-    <script src="script.js"></script>
+    <!-- Contact Section -->
+    <section id="contato" class="py-16" style="background-color: #fafafa;">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6" style="color: #333;">Entre em <span style="color: #f8d67d;">Contato</span></h2>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 rounded-full flex items-center justify-center" style="background-color: #f8f7fc;">
+                                <i class="fas fa-map-marker-alt" style="color: #f8d67d;"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold" style="color: #333;">Endereço</h3>
+                                <p>Av. Brasil, 1000 - Centro<br>Uberlândia/MG</p>
+                            </div>
+                        </div>
+                                                
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 rounded-full flex items-center justify-center" style="background-color: #f8f7fc;">
+                                <i class="fas fa-phone-alt" style="color: #f8d67d;"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold" style="color: #333;">Telefone</h3>
+                                <p>(34) 9999-9999<br>Segunda a Sexta, 8h às 18h</p>
+                            </div>
+                        </div>
+                                                
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 rounded-full flex items-center justify-center" style="background-color: #f8f7fc;">
+                                <i class="fas fa-envelope" style="color: #f8d67d;"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold" style="color: #333;">E-mail</h3>
+                                <p>contato@arbi.com.br<br>atendimento@arbi.com.br</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h3 class="font-bold mb-4" style="color: #333;">Redes Sociais</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="w-10 h-10 rounded-full flex items-center justify-center" style="background-color: #f8f7fc;">
+                                <i class="fab fa-facebook-f" style="color: #f8d67d;"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-full flex items-center justify-center" style="background-color: #f8f7fc;">
+                                <i class="fab fa-instagram" style="color: #f8d67d;"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-full flex items-center justify-center" style="background-color: #f8f7fc;">
+                                <i class="fab fa-linkedin-in" style="color: #f8d67d;"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-full flex items-center justify-center" style="background-color: #f8f7fc;">
+                                <i class="fab fa-youtube" style="color: #f8d67d;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Map -->
+                <div class="bg-white p-1 rounded-xl shadow-xl overflow-hidden h-full">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12039.769419093271!2d-48.277369!3d-18.918611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDU1JzA3LjAiUyA0OMKwMTYnMzguNSJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0; min-height: 400px;" allowfullscreen="" loading="lazy" class="rounded-lg"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8" style="background-color: #333; color: #fafafa;">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="rounded-lg h-12 mb-4 flex items-center">
+                        <img src="img/MARCA PLACE + ARBI transparente.png" alt="Marca PLACE + ARBI" class="h-full">
+                    </div>
+                    <p class="text-sm">
+                        ARBI Empreendimentos Imobiliários - Transformando sonhos em realidade desde 2008.
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="font-bold mb-4">Links Rápidos</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#sobre" class="hover:text-[#f8d67d]">Sobre Nós</a></li>
+                        <li><a href="#diferenciais" class="hover:text-[#f8d67d]">Diferenciais</a></li>
+                        <li><a href="#contato" class="hover:text-[#f8d67d]">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-bold mb-4">Contato</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-2" style="color: #f8d67d;"></i>
+                            <span>Av. Brasil, 1000 - Centro</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt mt-1 mr-2" style="color: #f8d67d;"></i>
+                            <span>(34) 9999-9999</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-2" style="color: #f8d67d;"></i>
+                            <span>contato@arbi.com.br</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-bold mb-4">Newsletter</h3>
+                    <p class="text-sm mb-4">
+                        Cadastre-se para receber novidades and lançamentos exclusivos.
+                    </p>
+                    <form class="flex">
+                        <input type="email" placeholder="Seu e-mail" class="px-4 py-2 rounded-l-md focus:outline-none text-gray-800 w-full">
+                        <button class="px-4 py-2 rounded-r-md font-bold" style="background-color: #f8d67d; color: #333;">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm">
+                <p>
+                    © 2023 ARBI Empreendimentos Imobiliários. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5534932358800?text=Vim%20pelo%20site%20do%20Google%2C%20E%20gostaria%20de%20saber%20mais%20sobre%20o%20ARBI" class="fixed bottom-6 right-6 w-14 h-14 rounded-full flex items-center justify-center shadow-lg" style="background-color: #25D366;">
+        <i class="fab fa-whatsapp text-white text-2xl"></i>
+    </a>
+
+    <script src="mian.js"></script>
 </body>
 </html>
